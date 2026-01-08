@@ -20,7 +20,17 @@ public class Problema1 {
     }
 
     public static void imprimirDatos(int[][] datos) {
-
+        String cadena = "";
+        for(int i = 0; i < datos.length; i++) {
+            for(int j = 0; j < datos[i].length; j++){
+                if(datos[i][j] % 2==0){
+                    cadena = String.format("%s%d\n",cadena,datos[i][j]);
+                }
+            }
+            
+        }
+        
+        System.out.println(cadena);
     }
 
 }
