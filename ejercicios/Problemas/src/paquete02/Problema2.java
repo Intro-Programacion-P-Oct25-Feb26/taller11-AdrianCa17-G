@@ -17,51 +17,59 @@ public class Problema2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in);
-        // TODO code application logic here
-        datosViviendas();
-        matrizConsumo();
+
+        String[] viviendas = datosViviendas();
+        double[][] consumoElectrico = matrizConsumo();
+        double[] consumoAnual = consumoAnual(consumoElectrico);
+
+        reporteFinal(viviendas, consumoAnual);
 
     }
 
-    public static String datosViviendas() {
+    public static String[] datosViviendas() {
         Scanner entrada = new Scanner(System.in);
         String[] viviendas = new String[10];
-        String cadena = "";
+
         for (int i = 0; i < viviendas.length; i++) {
             System.out.println("Ingrese el nombre de la vivienda: ");
             viviendas[i] = entrada.nextLine();
-            cadena = String.format("%s%s\n", cadena, viviendas[i]);
         }
-        cadena = String.format("Nombres de las 12 viviendas: \n%s", cadena);
-        return cadena;
+
+        return viviendas;
     }
 
-    public static String matrizConsumo() {
+    public static double[][] matrizConsumo() {
         Scanner entrada = new Scanner(System.in);
-        String[][] consumoElectrico = new String[10][12];
-        String cadena = "";
+        double[][] consumoElectrico = new double[10][12];
         for (int i = 0; i < consumoElectrico.length; i++) {
+            System.out.println("Vivienda " +(i + 1)+":\n");
             for (int j = 0; j < consumoElectrico[i].length; j++) {
-                System.out.println("Ingrese el consumo electrico de la vivienda: ");
-                consumoElectrico[i][j] = entrada.nextLine();
-                cadena = String.format("%s%s\n", cadena, consumoElectrico[i][j]);
+                System.out.printf("Ingrese el consumo electrico de la vivienda en el mes %d: ", j + 1);
+                consumoElectrico[i][j] = entrada.nextDouble();
             }
 
         }
-        cadena = String.format("Consumo electrico de las 12 viviendas: \n%s", cadena);
-        return cadena;
+        return consumoElectrico;
     }
-    
-    public static int consumoAnual() {
-        int[][] consumoElectricoAnual = new int[12];
-        String cadena = "";
-        int sumaTotal;
-        for (int i = 0; i < consumoElectricoAnual.length; i++) {
+
+    public static double[] consumoAnual(double[][] consumoElectrico) {
+        double[] consumoAnual = new double[12];
+        for (int i = 0; i < consumoElectrico.length; i++) {
+            double sumaTotal = 0;
+            for (int j = 0; j < consumoElectrico[i].length; j++) {
                 sumaTotal = sumaTotal + consumoElectrico[i][j];
-                cadena = String.format("%s%s\n", cadena, consumoElectrico[i][j]);
+            }
+            consumoAnual[i] = sumaTotal;
         }
-        cadena = String.format("Consumo electrico de las 12 viviendas: \n%s", cadena);
-        return cadena;
+        return consumoAnual;
+    }
+
+    public static void reporteFinal(String[] viviendas, double[] consumoAnual) {
+        String cadena = "\nReporte anual de consumo electrico de las viviendas";
+        for (int i = 0; i < viviendas.length;i++) {
+        
+                cadena = String.format("\n%sVivienda: %s - Consumo Anual: %.0f\n", cadena, viviendas[i], consumoAnual[i]);
+        }
+        System.out.println(cadena);
     }
 }
