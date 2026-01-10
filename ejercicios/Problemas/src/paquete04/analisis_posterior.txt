@@ -1,0 +1,8 @@
+
+Analisis posterior ejercicio 4
+
+Lo más difícil fue como realizar una cadena de texto en cada procedimiento.
+Al inicio olvidé solicitar algunos valores necesarios, es decir, los parametros.
+La parte más importante fue mostrar el reporte de forma clara que concatenaba
+todos los datos y calculos realizados de cada procedimiento.
+Por lo tanto, aprendí a organizar mejor los datos del usuario.

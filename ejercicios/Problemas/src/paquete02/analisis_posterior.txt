@@ -1,0 +1,8 @@
+
+Analisis posterior ejercicio 2
+
+Lo más complicado fue organizar los datos de viviendas y consumos en los arreglos
+respectivos, puesto a que no sabia como manejar tanto arreglos unidimensionales
+como bidimensionales. Al inicio me confundí con las filas y columnas de la matriz.
+La parte clave fue calcular correctamente el consumo anual. Aprendí a trabajar
+ mejor con arreglos y matrices juntos a traves de funciones y procedimientos.

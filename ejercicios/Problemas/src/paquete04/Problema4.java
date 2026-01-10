@@ -27,8 +27,9 @@ public class Problema4 {
                 + "de un bien inmueble\n");
 
         opcion = entrada.nextInt();
+        entrada.nextLine();
 
-        if ((opcion == 1) || (opcion == 3)) {
+        if ((opcion == 1) || (opcion == 2)) {
 
             String nombre;
             String cedula;
@@ -39,19 +40,20 @@ public class Problema4 {
             cedula = entrada.nextLine();
 
             if (opcion == 1) {
-                valorPlanillaLuz();
+                valorPlanillaLuz(nombre, cedula);
             } else {
                 if (opcion == 2) {
-                    predioBienInmueble();
-
-                } else {
-                    System.out.println("Opcion Invalida");
+                    predioBienInmueble(nombre, cedula);
                 }
+            }
+        } else {
+            if (opcion >= 4) {
+                System.out.println("Opcion Invalida");
             }
         }
     }
 
-    public static void valorPlanillaLuz(String nombre, String apellido) {
+    public static void valorPlanillaLuz(String nombre, String cedula) {
 
         Scanner entrada = new Scanner(System.in);
 
@@ -64,9 +66,26 @@ public class Problema4 {
         valorKilowatio = entrada.nextInt();
         System.out.println("Ingrese el numero de kilowatios");
         numeroKilowatios = entrada.nextInt();
-        
-        
+
         respuestaPlanillaLuz = valorKilowatio * numeroKilowatios;
 
-        System.out.println("El area del cuadrado es de: " + respuestaPlanillaLuz);
+        System.out.printf("Cliente %s con cédula %s debe cancelar el valor de $%d\n ", nombre, cedula, respuestaPlanillaLuz);
+    }
+
+    public static void predioBienInmueble(String nombre, String cedula) {
+
+        Scanner entrada = new Scanner(System.in);
+
+        double valorInmueble;
+        double respuestaValorInmueble;
+
+        System.out.println("Usted ha seleccionado la opcion de Calcular el valor del predio de un bien inmueble\n");
+        System.out.println("Ingrese el valor del bien inmueble");
+        valorInmueble = entrada.nextDouble();
+
+        respuestaValorInmueble = valorInmueble * 0.2;
+
+        System.out.printf("Cliente %s con cédula %s tiene un bien inmueble valorado en $ %.2f y tiene que pagar de predio $ %.2f\n", nombre, cedula, valorInmueble, respuestaValorInmueble);
+
+    }
 }

@@ -1,0 +1,8 @@
+
+Analisis previo ejercicio 04
+
+El programa debe solicitar los datos del cliente como su nombre y cedula.
+Se debe hacer un condicional donde el usuario elige si desea calcular el valor de la
+luz o del predio, estos dos son procedimientos en donde pide la información necesaria 
+por teclado y se realizan los cálculos correspondientes según la opción.
+Al final se muestra un reporte claro para el cliente y el valor a pagar.

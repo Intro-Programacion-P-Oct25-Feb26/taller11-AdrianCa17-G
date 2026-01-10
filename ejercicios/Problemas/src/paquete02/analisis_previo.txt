@@ -1,0 +1,8 @@
+
+Analisis previo ejercicio 2
+
+El programa necesita los nombres de las viviendas y su consumo eléctrico mensual.
+Primero se ingresan los datos de las viviendas en un arreglo unidimensional.
+Luego se registran los consumos eléctricos de cada mes en un arreglo bidimensional.
+Después se calcula el consumo total anual de cada vivienda usando dos parametros.
+Finalmente se presenta un reporte con los resultados obtenidos.

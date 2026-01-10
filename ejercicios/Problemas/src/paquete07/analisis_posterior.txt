@@ -1,0 +1,8 @@
+
+Analsis posterior del ejercicio 07
+
+La parte mas dificil fue entender la estructura logica de los ciclos no sabia como pedir al usuario 
+cuantos numeros de lugares iba a escribir ademas de que al presentar las ciudades presentaba
+caracteres raros, mas no las ciudades, me di cuenta que se debia usar un ciclo en el metodo principal,
+por lotanto es vital aprender a usar los ciclos para no tener estos errores, aprendi a manejar
+correctamente los arreglos y los ciclos ademas de como presentar un arreglo de cadena mediante un ciclo.

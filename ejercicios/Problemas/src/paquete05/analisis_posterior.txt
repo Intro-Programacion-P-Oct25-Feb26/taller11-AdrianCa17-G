@@ -1,0 +1,8 @@
+
+Analisis Posterior Ejercicio 5
+
+Fue complicado entender como se debe recorrer dos matrices al mismo tiempo,
+asi que cometi el error de no sumar correctamente los valores correspondientes.
+en su respectiva posicion, y tambien como usar la cadena acumuladora.
+La parte más importante fue mantener la posición correcta de los datos.
+Aprendí a trabajar con operaciones entre arreglos bidimensionales.

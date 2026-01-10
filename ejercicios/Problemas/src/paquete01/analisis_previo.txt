@@ -1,0 +1,8 @@
+
+Analisis previo ejercicio 1
+
+El programa necesita una matriz de números enteros para trabajar.
+Se recorre toda la matriz buscando únicamente los números pares.
+Los valores pares se van uniendo en una sola cadena de texto.
+Se mantiene el orden en el que aparecen los datos originales.
+Al final se muestra la cadena resultante por pantalla.

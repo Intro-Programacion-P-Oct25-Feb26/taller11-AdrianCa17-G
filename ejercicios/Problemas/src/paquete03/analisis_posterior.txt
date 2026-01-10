@@ -1,0 +1,8 @@
+
+Analisis posterior ejercicio 3
+
+La dificultad estuvo en el condicional que decidia qué procedimiento llamar según la 
+opción por lo tanto se debia manejar correctamente el uso de este condicional.
+Al inicio cometí el error de no saber como invocar los procedimientos.
+La parte más importante fue separar cada cálculo en un procedimiento.
+Aprendí a usar mejor las opciones para controlar el programa.

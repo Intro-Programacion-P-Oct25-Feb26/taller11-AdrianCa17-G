@@ -1,0 +1,8 @@
+
+Analisis previo ejercicio 3
+
+El programa solicita al usuario elegir la figura a calcular, según la opción elegida, 
+se piden los datos necesarios de cada procedimiento que serian 3 procedimientos.
+Cada procedimiento realiza su propio cálculo de área, que pide base, altura o lados.
+Los resultados se muestran directamente al usuario, por lo tanto, la parte clave
+seran los calculos.El método principal se encarga de controlar las opciones.

@@ -1,0 +1,8 @@
+
+Analisis posterior ejercicio 06
+
+Lo más difícil fue entender cómo usar el promedio y la formula para calcular la 
+desviación estándar, al inicio me confundí en el orden de los pasos, no sabia que
+se usaba tambien la raiz cuadrada, pero lo corregí siguiendo el proceso correctamente.
+La parte más importante fue separar los cálculos en funciones e invocarlas,
+por lo tanto, aprendí a organizar mejor los datos y los cálculos usando métodos.

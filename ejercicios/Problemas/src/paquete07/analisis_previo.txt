@@ -1,0 +1,8 @@
+
+Analsis previo del ejercicio 07
+
+Se desea que el usuario ingrese las ciudades del Ecuador, pero el decide cuantas
+ciudades desea ingresar mediante un arreglo que estará en una funcion y los
+presentara en un ciclo, que a su vez serán presentados en el metodo principal tambien mediante
+un ciclo, ademas de un procedimiento que evalua el numero de caracteres mediante un condicional 
+if, por lo tanto las estructuras mas importantes serán los ciclos for y el condicional.

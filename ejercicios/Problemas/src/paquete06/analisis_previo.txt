@@ -1,0 +1,8 @@
+
+Analisis previo ejercicio 06
+
+El programa necesita un arreglo de números enteros para trabajar donde
+primero se calcula el promedio o la media arimetica de todos los valores del arreglo,
+después se usa ese promedio para saber la desviacion estandar de cada numero entre sí,
+Finalmente se muestran en pantalla el promedio y la desviación estándar obtenidos, las 
+estructuras mas importantes serán los for y la suma acumuladora.

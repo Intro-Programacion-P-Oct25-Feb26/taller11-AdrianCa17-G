@@ -1,0 +1,8 @@
+
+Analisis Posterior Ejercicio 1
+
+Al inicio fue un poco confuso recorrer correctamente toda la matriz.
+El error principal fue no respetar el orden de los datos al mostrarlos.
+La parte más importante fue identificar los números pares mediante el
+condicional if, que este es clave para mostrar todos los numeros pares.
+Aprendí a procesar matrices sin crear nuevos arreglos.

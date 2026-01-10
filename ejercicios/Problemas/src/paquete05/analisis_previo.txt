@@ -1,0 +1,8 @@
+
+Analisis Previo del ejercicio 5
+
+El programa necesita dos arreglos bidimensionales con números, en donde
+ambos arreglos se recorren al mismo tiempo, y se suman los valores que
+coinciden en la misma posición de dichos arreglos. Por lo tanto, se debe
+usar un ciclo repetitivo y una cadena acumuladora que muestre el resultado 
+en una nueva matriz. Finalmente se devuelve la matriz con los valores sumados.
